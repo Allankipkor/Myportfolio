@@ -60,7 +60,12 @@ body {
     padding: 1rem 0;
     transition: var(--transition);
 }
-
+.logo img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%; /* makes it circular */
+  object-fit: cover;
+}
 .navbar.scrolled {
     box-shadow: var(--shadow-lg);
     padding: 0.8rem 0;
